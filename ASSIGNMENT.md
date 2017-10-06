@@ -38,7 +38,7 @@ Your project will be graded not only on your group's solution but also on how we
 
 The CSE department maintains a [directory](http://www.cse.osu.edu/about-us/faculty) with links to each faculty member's web page. Some of these pages are very simple, others are more complex. But few (if any) are HTML 5 or CSS compliant, and all could use some help in terms of design.
 
-<p>For this project, your task is to <strong>redesign</strong> (andimprove!) <em>one</em> professor's web site.In particular, you are asked to redesign either Prof. Davis'site (<a href="http://www.cse.osu.edu/~davis.1719">~davis.1719</a>) or Prof. Stewart's site (<a href="http://www.cse.osu.edu/~stewart.962">~stewart.962</a>).</p>
+<p>For this project, your task is to <strong>redesign</strong> (and improve!) <em>one</em> professor's web site.In particular, you are asked to redesign either Prof. Davis'site (<a href="http://www.cse.osu.edu/~davis.1719">~davis.1719</a>) or Prof. Stewart's site (<a href="http://www.cse.osu.edu/~stewart.962">~stewart.962</a>).</p>
 
 The final result should conform to the following requirements:
 
