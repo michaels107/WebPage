@@ -1,15 +1,23 @@
-<!-- Edited 6/22/2020 by Sean Michaels : Added footer partial
-
+<!--
+  Created 6/19/2020 by Duytan Tran
+  Edited 6/22/2020 by Caroline Wheeler: Homepage
+  Edited 6/22/2020 by Sean Michaels: Added footer partial
+  Edited 6/22/2020 by Duytan Tran: home, people, and noteworthy style links
 -->
 <!doctype html>
 <head>
   <!-- Use the title from a page's frontmatter if it has one -->
-  <title><%= current_page.data.title || "Middleman" %></title>
+  <title><%= current_page.data.title || "Jim Davis" %></title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <%= stylesheet_link_tag "site" %>
+  <!-- Import the proper css styling dependent on active page -->
+  <%= case current_page.data.title
+      when "JWD - Home" then stylesheet_link_tag "site"
+      when "JWD - People" then stylesheet_link_tag "people_style"
+      when "JWD - Noteworthy" then stylesheet_link_tag "noteworthy_style"
+      end %>
   <%= stylesheet_link_tag "navbar" %>
 </head>
 <body>
