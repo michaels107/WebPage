@@ -1,35 +1,21 @@
+<!-- Edited 6/22/2020 by Sean Michaels : Added footer partial
+
+-->
 <!doctype html>
-<html>
-  <head>
-    <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Middleman" %></title>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <%= stylesheet_link_tag "site" %>
-    <%= stylesheet_link_tag "navbar" %>
-  </head>
-  <body>
-  <div class="navbar">
-    <a href="#home">HOME</a>
-    <a href="#pubs">PUBLICATIONS</a>
-    <a href="#edu">EDUCATION</a>
-    <a href="#teaching">TEACHING</a>
-    <a href="#note">NOTEWORTHY</a>
-    <div class="dropdown">
-      <button class="dropbtn">MEDIA
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="#">TV</a>
-        <a href="#">RADIO</a>
-        <a href="#">PRINT</a>
-      </div>
-    </div>
-    <a href="#people">PEOPLE</a>
-  </div>
-  <hr>
-    <%= yield %>
-  </body>
+<body>
+<head>
+  <!-- Use the title from a page's frontmatter if it has one -->
+  <title><%= current_page.data.title || "Middleman" %></title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <%= stylesheet_link_tag "site" %>
+  <%= stylesheet_link_tag "navbar" %>
+</head>
+<body>
+<%=partial "navbar" %>
+<%= yield %>
+<%= partial "footer" %>
+</body>
 </html>
