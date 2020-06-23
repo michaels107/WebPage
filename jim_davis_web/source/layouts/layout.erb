@@ -3,7 +3,7 @@
   Edited 6/22/2020 by Caroline Wheeler: Homepage
   Edited 6/22/2020 by Sean Michaels: Added footer partial
   Edited 6/22/2020 by Duytan Tran: home, people, and noteworthy style links
-  Edited 6/23/2020 by Duytan Tran: Fixed style linking, added lang attribute
+  Edited 6/23/2020 by Duytan Tran: Fixed style linking, added lang attribute, added icon
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -12,6 +12,7 @@
   <title><%= current_page.data.title || "Jim Davis" %></title>
   <meta charset="utf-8" lang="en">
   <link href="stylesheets/navbar.css" rel="stylesheet" />
+  <link href="stylesheets/icon.css" rel="stylesheet" />
   <link href="stylesheets/footer.css" rel="stylesheet" />
   <!-- Import the proper css styling dependent on active page -->
   <% case current_page.data.title
