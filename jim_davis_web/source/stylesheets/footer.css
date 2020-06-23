@@ -1,0 +1,11 @@
+/*
+ Created on 6/23/20 by Sean Michaels
+ CSS for the footer.
+ */
+
+hr {
+    border-color: #666666;
+}
+footer{
+    margin-top: auto;
+}
