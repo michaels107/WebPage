@@ -9,3 +9,10 @@ hr {
 footer{
     margin-top: auto;
 }
+body {
+    font-family: Arsenal;
+    font-size: 9px;
+}
+ul {
+    list-style-type: none;
+}
