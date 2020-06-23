@@ -1,5 +1,6 @@
 /*
   Created on 6/22/20 by Duytan Tran
+  Edited 6/23/2020 by Duytan Tran: Reworked Alumni from ul to p, added font styling
   People css styling.
 */
 
@@ -8,27 +9,34 @@
     font-weight: bold;
 }
 
+/*Font styling*/
+body {
+    font-family: Arial;
+    font-size: 20px;
+}
+
 /*Alumni & Current Student Headers*/
 h1, h2 {
     font-weight: normal;
     font-size: x-large;
     color: white;
     background-color: grey;
-    padding: 5px 4px;
+    padding: 5px 30px;
     margin: 10px 0px 0px 0px;
 }
 
-/*Entire name list styling*/
+/*Entire student list styling*/
 ul {
     margin: 0px;
     padding-top: 7px;
     padding-bottom: 7px;
 }
 
-/*Individual name + info styling*/
+/*Individual student styling*/
 li {
-    margin-top: 7px;
-    margin-bottom: 7px;
+    list-style-type: square;
+    padding: 6px 6px 6px 10px;
+    margin-left: 30px;
 }
 
 /*Individual name styling*/
@@ -38,5 +46,14 @@ span {
 
 /*Info on individual alumni styling*/
 p {
+    margin-left: 30px;
+    padding: 0px 6px 0px 10px;
     color: dimgrey;
+}
+
+/* List-like alumni name styling*/
+.name {
+    display: list-item;
+    list-style-type: square;
+    color: black;
 }
