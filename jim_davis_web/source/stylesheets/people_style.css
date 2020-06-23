@@ -2,24 +2,41 @@
   Created on 6/22/20 by Duytan Tran
   People css styling.
 */
-.current_students {
+
+/*Illustrates active page to navbar*/
+.navbar a[href="people.html"] {
+    font-weight: bold;
 }
 
+/*Alumni & Current Student Headers*/
 h1, h2 {
     font-weight: normal;
     font-size: x-large;
-    color: black;
-    padding: 5px 5px;
+    color: white;
+    background-color: grey;
+    padding: 5px 4px;
     margin: 10px 0px 0px 0px;
 }
 
+/*Entire name list styling*/
 ul {
     margin: 0px;
     padding-top: 7px;
     padding-bottom: 7px;
 }
 
+/*Individual name + info styling*/
 li {
     margin-top: 7px;
     margin-bottom: 7px;
+}
+
+/*Individual name styling*/
+span {
+    text-decoration: underline;
+}
+
+/*Info on individual alumni styling*/
+p {
+    color: dimgrey;
 }

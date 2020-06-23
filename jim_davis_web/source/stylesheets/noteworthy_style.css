@@ -2,21 +2,36 @@
   Created on 6/22/20 by Duytan Tran
   Noteworthy css styling.
 */
+
+/*Illustrates active page to navbar*/
+.navbar a[href="noteworthy.html"] {
+    font-weight: bold;
+}
+
+/*Achievement header styling*/
 h1 {
     font-weight: normal;
     font-size: x-large;
-    color: black;
+    color: white;
+    background-color: grey;
     padding: 5px 5px;
     margin: 10px 0px 0px 0px;
 }
 
+/*Entire achievement styling*/
 ul {
-    margin-top: 0px;
+    margin: 25px;
 }
 
+/*Individual achievement styling*/
 li {
-    padding: 6px;
+    padding: 6px 6px 6px 10px;
+    list-style-type: square;
+    margin-left: 20px;
 }
 
-.noteworthy_data {
+/*Important noteworthy keyword styling*/
+span {
+    color: dimgray;
+    font-weight: bold;
 }
