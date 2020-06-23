@@ -12,6 +12,7 @@
   <title><%= current_page.data.title || "Jim Davis" %></title>
   <meta charset="utf-8" lang="en">
   <link href="stylesheets/navbar.css" rel="stylesheet" />
+  <link href="stylesheets/footer.css" rel="stylesheet" />
   <!-- Import the proper css styling dependent on active page -->
   <% case current_page.data.title
      when "JWD - Home" %>
@@ -20,6 +21,12 @@
   <link href="stylesheets/people_style.css" rel="stylesheet" />
   <% when "JWD - Noteworthy" %>
   <link href="stylesheets/noteworthy_style.css" rel="stylesheet" />
+  <% when "JWD - TV/Video" %>
+    <link href="stylesheets/lists.css" rel="stylesheet" />
+  <% when "JWD - Radio" %>
+    <link href="stylesheets/lists.css" rel="stylesheet" />
+  <% when "JWD - Print" %>
+    <link href="stylesheets/lists.css" rel="stylesheet" />
   <% end %>
 </head>
 <body>

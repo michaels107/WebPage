@@ -3,14 +3,28 @@
  CSS for the list suchs as tv/video, radio, print.
 */
 
-body {
-    max-width: 1080px;
-    margin: 50px 70px 70px;
-    float: none !important;
-    font-family: Arsenal;
-    font-size: 20px;
+/*Illustrates active page to navbar*/
+.navbar a[href="tv_video.html"] {
+    font-weight: bold;
 }
-h1 {
-    text-align: center;
+h3 {
+    text-align: left;
 
+}
+/* Square bullets and 6px padding for each element in the list. */
+li {
+    list-style-type: square;
+    padding: 6px;
+}
+a:link{
+    color: #666666;
+    text-decoration: none;
+}
+a:visted{
+    color: darkgrey;
+    text-decoration: none;
+}
+a:hover{
+    color: #990000;
+    text-decoration: bold;
 }
