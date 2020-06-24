@@ -6,6 +6,7 @@
   Edited 6/23/2020 by Duytan Tran: Fixed style linking, added lang attribute, added icon
   Edited 6/23/2020 by Reema Gupta: style link for the heading for all pages
   Edited 6/24/2020 by Reema Gupta: added css link for education
+  Edited 6/23/2020 by Caroline Wheeler: added link for google font - Arsenal
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -14,6 +15,7 @@
   <title><%= current_page.data.title || "Jim Davis" %></title>
   <meta charset="utf-8" lang="en">
   <link href="./stylesheets/navbar.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Arsenal&display=swap" rel="stylesheet">
   <link href="stylesheets/icon.css" rel="stylesheet" />
   <link href="stylesheets/footer.css" rel="stylesheet" />
   <link href="stylesheets/font_scheme.css"rel="stylesheet"/>
@@ -27,12 +29,16 @@
   <link href="./stylesheets/noteworthy_style.css" rel="stylesheet" />
   <% when "JWD - Education" %>
     <link href="./stylesheets/education_style.css" rel="stylesheet" />
+  <% when "JWD - Teaching" %>
+    <link href="./stylesheets/site.css" rel="stylesheet" />
   <% when "JWD - TV/Video" %>
     <link href="stylesheets/lists.css" rel="stylesheet" />
   <% when "JWD - Radio" %>
     <link href="stylesheets/lists.css" rel="stylesheet" />
   <% when "JWD - Print" %>
     <link href="stylesheets/lists.css" rel="stylesheet" />
+  <% when "JWD - Directions" %>
+  <link href="./stylesheets/directions.css" rel="stylesheet" />
   <% end %>
 </head>
 <body>
