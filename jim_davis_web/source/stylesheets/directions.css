@@ -1,0 +1,11 @@
+
+/*Illustrates active page to navbar*/
+.navbar a[href="noteworthy.html"] {
+    font-weight: bold;
+}
+
+.map{
+    width: 450px;
+    height: 450px;
+    padding: 20px;
+}
