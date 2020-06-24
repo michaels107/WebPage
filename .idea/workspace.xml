@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f34c759d-d8e4-4fdf-825c-703db4f47133" name="Default Changelist" comment="Updated the footer content, cant fix the bullets on it on different pages, it wont override it the ul css.">
+      <change beforePath="$PROJECT_DIR$/jim_davis_web/source/print.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/jim_davis_web/source/print.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jim_davis_web/source/radio.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/jim_davis_web/source/radio.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jim_davis_web/source/stylesheets/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/jim_davis_web/source/stylesheets/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jim_davis_web/source/stylesheets/lists.css" beforeDir="false" afterPath="$PROJECT_DIR$/jim_davis_web/source/stylesheets/lists.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jim_davis_web/source/tv_video.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/jim_davis_web/source/tv_video.html.erb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Ruby File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1def7BsENFu90kHBqtbZOHDBXP5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jim_davis_web/source" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.settings.patched" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jim_davis_web/source" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jim_davis_web/source" />
+      <recent name="$PROJECT_DIR$/jim_davis_web" />
+      <recent name="$PROJECT_DIR$/" />
+    </key>
+  </component>
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="teaching.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project-4-Quaranteam/teaching.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.teaching.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f34c759d-d8e4-4fdf-825c-703db4f47133" name="Default Changelist" comment="" />
+      <created>1592790309797</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592790309797</updated>
+      <workItem from="1592790311166" duration="562000" />
+      <workItem from="1592840567539" duration="4061000" />
+      <workItem from="1592856005194" duration="3784000" />
+      <workItem from="1592859816766" duration="1730000" />
+      <workItem from="1592941783130" duration="4577000" />
+      <workItem from="1592947105470" duration="2285000" />
+      <workItem from="1593018323518" duration="58000" />
+      <workItem from="1593018396394" duration="791000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added tv_video.html.erb and changed layout so it should put the navbar and footer on every page but its not displaying the footer for some reason.">
+      <created>1592861315803</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592861315803</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added tv_video.html.erb and changed layout so it should put the navbar and footer on every page but its not displaying the footer for some reason.">
+      <created>1592861355845</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592861355845</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added my other pages, updated some CSS for the pages Ive made.">
+      <created>1592945652913</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592945652913</updated>
+    </task>
+    <task id="LOCAL-00004" summary="my pages and my CSS for footer">
+      <created>1592945724808</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592945724808</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated the footer content, cant fix the bullets on it on different pages, it wont override it the ul css.">
+      <created>1592949376269</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592949376269</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added tv_video.html.erb and changed layout so it should put the navbar and footer on every page but its not displaying the footer for some reason." />
+    <MESSAGE value="Added my other pages, updated some CSS for the pages Ive made." />
+    <MESSAGE value="my pages and my CSS for footer" />
+    <MESSAGE value="Updated the footer content, cant fix the bullets on it on different pages, it wont override it the ul css." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the footer content, cant fix the bullets on it on different pages, it wont override it the ul css." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="521" y="194" width="455" height="432" key="#Web_Browsers" timestamp="1592840604131">
+      <screen x="67" y="27" width="1373" height="768" />
+    </state>
+    <state x="521" y="194" width="455" height="432" key="#Web_Browsers/67.27.1373.768@67.27.1373.768" timestamp="1592840604131" />
+    <state width="1327" height="184" key="GridCell.Tab.0.bottom" timestamp="1593018439703">
+      <screen x="67" y="27" width="1373" height="768" />
+    </state>
+    <state width="1327" height="184" key="GridCell.Tab.0.bottom/67.27.1373.768@67.27.1373.768" timestamp="1593018439703" />
+    <state width="1327" height="184" key="GridCell.Tab.0.center" timestamp="1593018439703">
+      <screen x="67" y="27" width="1373" height="768" />
+    </state>
+    <state width="1327" height="184" key="GridCell.Tab.0.center/67.27.1373.768@67.27.1373.768" timestamp="1593018439702" />
+    <state width="1327" height="184" key="GridCell.Tab.0.left" timestamp="1593018439702">
+      <screen x="67" y="27" width="1373" height="768" />
+    </state>
+    <state width="1327" height="184" key="GridCell.Tab.0.left/67.27.1373.768@67.27.1373.768" timestamp="1593018439702" />
+    <state width="1327" height="184" key="GridCell.Tab.0.right" timestamp="1593018439703">
+      <screen x="67" y="27" width="1373" height="768" />
+    </state>
+    <state width="1327" height="184" key="GridCell.Tab.0.right/67.27.1373.768@67.27.1373.768" timestamp="1593018439703" />
+    <state x="199" y="88" width="1098" height="644" key="MergeDialog" timestamp="1592856046698">
+      <screen x="67" y="27" width="1373" height="768" />
+    </state>
+    <state x="199" y="88" width="1098" height="644" key="MergeDialog/67.27.1373.768@67.27.1373.768" timestamp="1592856046698" />
+    <state x="348" y="146" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1592949394049">
+      <screen x="67" y="27" width="1373" height="768" />
+    </state>
+    <state x="348" y="146" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1373.768@67.27.1373.768" timestamp="1592949394049" />
+    <state x="524" y="325" width="448" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593018402944">
+      <screen x="67" y="27" width="1373" height="768" />
+    </state>
+    <state x="524" y="325" width="448" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1373.768@67.27.1373.768" timestamp="1593018402944" />
+    <state x="416" y="116" key="search.everywhere.popup" timestamp="1592857861397">
+      <screen x="67" y="27" width="1373" height="768" />
+    </state>
+    <state x="416" y="116" key="search.everywhere.popup/67.27.1373.768@67.27.1373.768" timestamp="1592857861397" />
+  </component>
+</project>
