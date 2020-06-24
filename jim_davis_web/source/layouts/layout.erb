@@ -4,6 +4,8 @@
   Edited 6/22/2020 by Sean Michaels: Added footer partial
   Edited 6/22/2020 by Duytan Tran: home, people, and noteworthy style links
   Edited 6/23/2020 by Duytan Tran: Fixed style linking, added lang attribute, added icon
+  Edited 6/23/2020 by Reema Gupta: style link for the heading for all pages
+  Edited 6/24/2020 by Reema Gupta: added css link for education
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -11,17 +13,20 @@
   <!-- Use the title from a page's frontmatter if it has one -->
   <title><%= current_page.data.title || "Jim Davis" %></title>
   <meta charset="utf-8" lang="en">
-  <link href="stylesheets/navbar.css" rel="stylesheet" />
+  <link href="./stylesheets/navbar.css" rel="stylesheet" />
   <link href="stylesheets/icon.css" rel="stylesheet" />
   <link href="stylesheets/footer.css" rel="stylesheet" />
+  <link href="stylesheets/font_scheme.css"rel="stylesheet"/>
   <!-- Import the proper css styling dependent on active page -->
   <% case current_page.data.title
      when "JWD - Home" %>
-  <link href="stylesheets/site.css" rel="stylesheet" />
+  <link href="./stylesheets/site.css" rel="stylesheet" />
   <% when "JWD - People" %>
-  <link href="stylesheets/people_style.css" rel="stylesheet" />
+  <link href="./stylesheets/people_style.css" rel="stylesheet" />
   <% when "JWD - Noteworthy" %>
-  <link href="stylesheets/noteworthy_style.css" rel="stylesheet" />
+  <link href="./stylesheets/noteworthy_style.css" rel="stylesheet" />
+  <% when "JWD - Education" %>
+    <link href="./stylesheets/education_style.css" rel="stylesheet" />
   <% when "JWD - TV/Video" %>
     <link href="stylesheets/lists.css" rel="stylesheet" />
   <% when "JWD - Radio" %>
