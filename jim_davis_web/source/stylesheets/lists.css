@@ -9,15 +9,10 @@
 .dropbtn {
     font-weight: bold;
 }
-body {
-    font-family: Arsenal;
-    font-size: 20px;
-}
 
 /* Square bullets and 6px padding for each element in the list. */
 ul{
-    padding-left: 17px
-;
+    padding-left: 17px;
 }
 li {
     list-style-type: square;

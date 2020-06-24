@@ -9,10 +9,9 @@ hr {
 footer{
     margin-top: auto;
 }
-body {
-    font-family: Arsenal;
-    font-size: 9px;
-}
-ul {
-    list-style-type: none;
+/*
+Created on 6/24/20 by Reema Gupta
+For size of the footer */
+.footer-size span {
+    font-size: 15px;
 }
