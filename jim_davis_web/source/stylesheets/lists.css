@@ -22,11 +22,11 @@ a:link{
     color: #666666;
     text-decoration: none;
 }
-a:visted{
-    color: darkgrey;
-    text-decoration: none;
-}
 a:hover{
     color: #990000;
-    text-decoration: bold;
+    font-weight: bold;
+}
+span{
+    color: dimgray;
+    font-weight: bold;
 }
