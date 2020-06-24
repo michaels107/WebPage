@@ -1,45 +1,102 @@
 /*
-  Created on 6/22/20 by Duytan Tran
-  Edited 6/23/2020 by Duytan Tran: Reworked Alumni from ul to p, added font styling
-   Edited on 6/24/2020 by Reema Gupta: removed heading css so as to use a single css on all pages
+  Created on 6/22/2020 by Duytan Tran
+  Edited on 6/23/2020 by Duytan Tran: Reworked Alumni from ul to p, added font styling
+  Edited on 6/24/2020 by Reema Gupta: removed heading css so as to use a single css on all pages
+  Edited on 6/24/2020 by Duytan Tran: Styling for student degree data table
   People css styling.
 */
 
-/*Illustrates active page to navbar*/
+/*Created 6/23/2020 Duytan Tran
+  Illustrates active page to navbar*/
 .navbar a[href="people.html"] {
     font-weight: bold;
 }
 
 
-/*Entire student list styling*/
+/*Created 6/22/2020 Duytan Tran
+  Entire student list styling*/
 ul {
     margin: 0px;
     padding-top: 7px;
     padding-bottom: 7px;
 }
 
-/*Individual student styling*/
+/*Created 6/22/2020 Duytan Tran
+  Individual student styling*/
 li {
     list-style-type: square;
     padding: 6px 6px 6px 10px;
     margin-left: 30px;
 }
 
-/*Individual name styling*/
+/*Created 6/22/2020 Duytan Tran
+  Individual name styling*/
 span {
     text-decoration: underline;
 }
 
-/*Info on individual alumni styling*/
+/*Created 6/22/2020 Duytan Tran
+  Info on individual alumni styling*/
 p {
     margin-left: 30px;
     padding: 0px 6px 0px 10px;
     color: dimgrey;
 }
 
-/* List-like alumni name styling*/
+/*Created 6/23/2020 Duytan Tran
+  List-like alumni name styling*/
 .name {
     display: list-item;
     list-style-type: square;
     color: black;
+}
+
+/*Created 6/24/2020 Duytan Tran
+  Container for side-by-side student list + table*/
+#adjacent_container {
+    display: flex;
+}
+
+/*Created 6/24/2020 Duytan Tran
+  Left div under current student*/
+.current_list {
+    flex: 60%;
+}
+
+/*Created 6/24/2020 Duytan Tran
+  Right div under current student*/
+.deg_table {
+    flex: 1;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+/*Created 6/24/2020 Duytan Tran
+  Title of table styling*/
+caption {
+    font-weight: bold;
+}
+
+/*Created 6/24/2020 Duytan Tran
+  Table header styling*/
+th {
+    font-weight: lighter;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    border: 1px solid gray;
+}
+
+/*Created 6/24/2020 Duytan Tran
+  Smooth table styling*/
+table {
+    border-collapse: collapse;
+}
+
+/*Created 6/24/2020 Duytan Tran
+  Table contents styling*/
+td {
+    text-align: left;
+    padding: 4px;
+    border: 1px solid gray;
 }

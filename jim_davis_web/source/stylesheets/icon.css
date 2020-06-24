@@ -2,6 +2,9 @@
  Created on 6/23/2020 by Duytan Tran
  CSS for the icon.
  */
+
+/*Created 6/23/2020 by Duytan Tran
+  Attaches logo to home button, secondary way of returning home*/
 .navbar a[href="index.html"]:after {
     position: absolute;
     top: 10px;

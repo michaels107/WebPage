@@ -5,30 +5,35 @@
   Noteworthy css styling.
 */
 
-/*Illustrates active page to navbar*/
+/*Created 6/22/2020 by Duytan Tran
+  Illustrates active page to navbar*/
 .navbar a[href="noteworthy.html"] {
     font-weight: bold;
 }
 
-/*Entire achievement styling*/
+/*Created 6/22/2020 by Duytan Tran
+  Entire achievement styling*/
 ul {
     margin: 10px;
 }
 
-/*Individual achievement styling*/
+/*Created 6/22/2020 by Duytan Tran
+  Individual achievement styling*/
 li {
     padding: 6px 6px 6px 10px;
     list-style-type: square;
     margin-left: 20px;
 }
 
-/*Important noteworthy keyword styling*/
+/*Created 6/22/2020 by Duytan Tran
+  Important noteworthy keyword styling*/
 span {
     color: dimgray;
     font-weight: bold;
 }
 
-/*Red links*/
+/*Created 6/23/2020 by Duytan Tran
+  Red links*/
 a {
     color: darkred;
 }
