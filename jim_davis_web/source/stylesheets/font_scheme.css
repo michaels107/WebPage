@@ -1,10 +1,11 @@
 /*
-  Created on 6/23/20 by Reema Gupta
+  Created on 6/23/2020 by Reema Gupta
+  Edited on 6/25/2020 by Duytan Tran: Added site-wide body margins
   css styling for fonts and scheme for all pages.
 */
 
-/* Created on 6/22/20 by Duytan Tran */
-/* Edited on 6/24/20 by Reema Gupta: css was shifted from noteworthy_style.css file to font_scheme.css
+/* Created on 6/22/2020 by Duytan Tran */
+/* Edited on 6/24/2020 by Reema Gupta: css was shifted from noteworthy_style.css file to font_scheme.css
                                  so that same heading design could be applied on all pages and some font size change was made*/
 /* Edited on 6/24/20 by Reema Gupta: added css for hovering on links*/
 /* Title Header styling for all pages*/
@@ -17,14 +18,23 @@
     padding: 5px 30px;
     margin: 10px 0px 0px 0px;
 }
+
 /* Created on 6/24/20 by Reema Gupta */
 /*font family and size styling for all pages*/
 body .font_scheme{
     font-family: Arial;
     font-size: 18px;
 }
+
 /* Created on 6/25/20 by Reema Gupta */
 /*changes the color of the links on hover*/
 a:hover{
     color: darkcyan;
+}
+
+/* Created 6/25/2020 by Duytan Tran*/
+/* Sets the site-wide margins for body*/
+body {
+    max-width: 1080px;
+    margin: 50px 100px 100px;
 }

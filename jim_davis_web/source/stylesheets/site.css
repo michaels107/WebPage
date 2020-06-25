@@ -1,0 +1,80 @@
+
+/* Created on 6/21/2020 by Caroline Wheeler
+   Edited 6/24/2020 by Reema Gupta: Added css for appointments section
+   Edited 6/25/2020 by Duytan Tran: Converted to css, moved margin setting
+   CSS for the homepage. */
+
+/*Created on 6/21/2020 by Caroline Wheeler
+  Edited on 6/25/2020 by Duytan Tran: Moved margin setting to font_scheme.css
+  margins  of 70 pixels on right and left, and 50 pixels on the top + font info*/
+body {
+  float: none !important;
+  font-size: 20px;
+}
+
+/*Created on 6/21/2020 by Caroline Wheeler
+  No bullets on lists on homepage*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*Created on 6/21/2020 by Caroline Wheeler
+  for the name name and address info*/
+.info {
+  float: left;
+  padding:20px;
+  width: 400px;
+  height: 350px;
+}
+
+/*Created on 6/21/2020 by Caroline Wheeler
+  Clear floats after the columns on homepage*/
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Created on 6/21/2020 by Caroline Wheeler
+  crop the image to a square on homepage*/
+.pic{
+  float: left;
+  padding:20px;
+  width:350px;
+  height:350px;
+  object-fit:cover;
+}
+
+/*Created on 6/21/2020 by Caroline Wheeler
+  two columns/boxes stack if screen is narrow*/
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*Created 6/25/20 by Reema Gupta
+  color for the link*/
+.appointments a{
+  color:#990000
+}
+
+/* Created 6/25/20 by Reema Gupta
+   css for appointments list*/
+.appointments ul {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(15,15,15);
+  fony-size: 18px !important;
+}
+
+/* Created 6/25/20 by Reema Gupta
+   css for appointments list */
+.appointments li {
+  list-style-type: square;
+  margin-left: 30px;
+  padding: 2px;
+}
