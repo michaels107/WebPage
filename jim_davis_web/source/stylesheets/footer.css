@@ -1,5 +1,6 @@
 /*
  Created on 6/23/20 by Sean Michaels
+ Edited on 6/25/2020 by Reema Gupta: added class for footer size and color
  CSS for the footer.
  */
 
@@ -11,8 +12,9 @@ footer{
     color: dimgray;
 }
 /*
-Created on 6/24/20 by Reema Gupta
-For size of the footer */
-.footer-size span {
-    font-size: 15px;
+Edited on 6/25/20 by Reema Gupta
+For size of the footer and color */
+.footer-size p {
+    font-size: 15px !important;
+    color: black
 }
