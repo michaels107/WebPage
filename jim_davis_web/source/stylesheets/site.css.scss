@@ -1,5 +1,6 @@
 
 // Created on 6/21/20 by Caroline Wheeler
+// Edited 6/24/20 by Reema Gupta: Added css for appointments section
 // CSS for the homepage.
 
 
@@ -48,4 +49,26 @@ section:after {
     width: 100%;
     height: auto;
   }
+}
+
+// Created 6/25/20 by Reema Gupta
+// color for the link
+.appointments a{
+  color:#990000
+}
+// Created 6/25/20 by Reema Gupta
+// css for appointments list
+.appointments ul {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(15,15,15);
+  fony-size: 18px !important;
+}
+
+// Created 6/25/20 by Reema Gupta
+// css for appointments list
+.appointments li {
+  list-style-type: square;
+  margin-left: 30px;
+  padding: 2px;
 }
