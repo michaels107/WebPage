@@ -6,33 +6,14 @@
 
 /* For the map on directions page*/
 .map{
-    width: 350px;
-    height: 350px;
+    width: 45%;
+    max-height: 450px;
+    min-width: 300px;
     padding: 20px;
     float: right;
     object-fit:cover;
 }
 
-/* for the section containing text and map side by side*/
-.container{
-    width: 100%
-}
-
-/* Clear floats after the columns on homepage */
-section:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* two columns/boxes stack if screen is narrow */
-@media (max-width: 600px) {
-    nav, article {
-        width: 100%;
-        height: auto;
-    }
-}
-
-body{
-    font-family: Arsenal;
+.instruct{
+    width: 55%;
 }
