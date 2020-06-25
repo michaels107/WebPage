@@ -33,11 +33,7 @@ a:hover{
     color: darkcyan;
 
 }
-/* Created on 6/25/20 by Reema Gupta */
-/*changes the color of the links on visiting*/
-a:visited{
-    color:darkblue;
-}
+
 /* Created 6/25/2020 by Duytan Tran*/
 /* Sets the site-wide margins for body*/
 body {
