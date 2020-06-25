@@ -12,6 +12,7 @@ body {
     font-size: 20px;
 }
 
+/* list with no bullets */
 ul {
     list-style-type: none;
     margin: 0;

@@ -1,10 +1,13 @@
+/*
+Created on 6/21/20 by Caroline Wheeler
+CSS for the homepage.
+*/
 
 // Created on 6/21/20 by Caroline Wheeler
 // Edited 6/24/20 by Reema Gupta: Added css for appointments section
 // CSS for the homepage.
 
-
-// margins  of 70 pixels on right and left, and 50 pixels on the top + font info
+/* margins  of 70 pixels on right and left, and 50 pixels on the top + font info */
 body {
   max-width: 1080px;
   margin: 50px 100px 100px;
@@ -13,13 +16,13 @@ body {
   font-size: 20px;
 }
 
-//No bullets on lists on homepage
+/* No bullets on lists on homepage */
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-//for the name name and address info
+/* for the name name and address info */
 .info {
   float: left;
   padding:20px;
@@ -27,14 +30,14 @@ ul {
   height: 350px;
 }
 
-// Clear floats after the columns on homepage
+/* Clear floats after the columns on homepage */
 section:after {
   content: "";
   display: table;
   clear: both;
 }
 
-//crop the image to a square on homepage
+/* crop the image to a square on homepage */
 .pic{
   float: left;
   padding:20px;
@@ -43,7 +46,7 @@ section:after {
   object-fit:cover;
 }
 
-//two columns/boxes stack if screen is narrow
+/* two columns/boxes stack if screen is narrow */
 @media (max-width: 600px) {
   nav, article {
     width: 100%;
