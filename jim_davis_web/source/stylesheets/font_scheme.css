@@ -2,17 +2,18 @@
   Created on 6/23/2020 by Reema Gupta
   Edited on 6/25/2020 by Duytan Tran: Added site-wide body margins
   css styling for fonts and scheme for all pages.
+  Edited on 6/24/20 by Reema Gupta: shifted css
+  Edited on 6/25/20 by Reema Gupta: added css for hovering on links
 */
 
 /* Created on 6/22/2020 by Duytan Tran */
 /* Edited on 6/24/2020 by Reema Gupta: css was shifted from noteworthy_style.css file to font_scheme.css
                                  so that same heading design could be applied on all pages and some font size change was made*/
-/* Edited on 6/24/20 by Reema Gupta: added css for hovering on links*/
 /* Title Header styling for all pages*/
 .title > h1,h2{
     font-weight: normal;
     font-size: 25px;
-    font-family: Arsenal;
+    font-family: Arial;
     color: white;
     background-color: grey;
     padding: 5px 30px;
@@ -21,7 +22,7 @@
 
 /* Created on 6/24/20 by Reema Gupta */
 /*font family and size styling for all pages*/
-body .font_scheme{
+.font_scheme{
     font-family: Arial;
     font-size: 18px;
 }
@@ -30,6 +31,7 @@ body .font_scheme{
 /*changes the color of the links on hover*/
 a:hover{
     color: darkcyan;
+
 }
 
 /* Created 6/25/2020 by Duytan Tran*/

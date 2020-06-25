@@ -1,0 +1,58 @@
+/* Created on 06/25/20 by Reema Gupta
+css for education.html
+ */
+
+/* Created on 06/25/20 by Reema Gupta
+for the margin of the content on page
+ */
+ul{
+    margin-top: 50px;
+}
+/* Created on 06/25/20 by Reema Gupta
+for the list elements degree, year and university
+ */
+ li {
+    padding: 30px 10px 20px 10px;
+    background-color: #fffafa;
+    position:relative;
+    margin-bottom: 20px;
+    color: black;
+}
+ /*
+  Created on 06/25/20 by Reema Gupta
+ for the color of the font for degree and year
+  */
+.education {
+    color: white;
+}
+/*
+ Created on 06/25/20 by Reema Gupta
+for the background color of degree
+ */
+ li .education .degree {
+    background-color: #990000;
+}
+/*
+Created on 06/25/20 by Reema Gupta
+for year and degree styling
+ */
+li .education span {
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+/*Created on 06/25/20 by Reema Gupta
+   for the background color of degree and left margin
+ */
+li .education .year {
+    background-color: #990000;
+    margin-left: -2px
+}
+/* Created on 06/25/20 by Reema Gupta
+     for the University section in education page
+ */
+ li .education .University{
+     padding-top: 20px;
+     color:black;
+     margin-left: 10px;
+ }
