@@ -7,7 +7,8 @@ title: "JWD - People"
   Edited on 6/24/2020 by Reema Gupta: included css for heading
   Edited on 6/24/2020 by Duytan Tran: Added a student degree data table
   Edited on 6/25/2020 by Reema Gupta: added font_scheme class for font
-  Edited on 6/25/2020 by Duytan Tran: Fixed font_scheme addition affecting adjacent elements
+  Edited on 6/25/2020 by Duytan Tran: Fixed font_scheme addition affecting adjacent elements, embedded ruby code for
+                                      list generation
   People page.
 -->
 <div class="current_students" >
@@ -17,12 +18,13 @@ title: "JWD - People"
   <div id="adjacent_container" class="font_scheme">
     <div class="current_list">
       <ul>
-        <li><span>Tong Liang</span>, Ph.D. student</li>
-        <li><span>Logan Frank</span>, M.S./Ph.D. student</li>
-        <li><span>Ash Radhakrishnan</span>, M.S./Ph.D. student</li>
-        <li><span>Jamie Cunningham</span>, B.S./M.S. student</li>
-        <li><span>James Enouen</span>, B.S. student</li>
-        <li><span>Isaac Zachmann</span>, B.S. student (ECE)</li>
+        <%# Loops through currentStudentList and prints out relevant html tags for list %>
+        <% content = File.readlines(File.join(Dir.pwd, 'source/listdata/currentStudentList')) %>
+        <% i = 0 %>
+        <% while i < content.length %>
+        <li><span><%=content[i] %></span><%=content[i+1] %></li>
+          <% i += 2 %>
+        <% end %>
       </ul>
     </div>
     <div class="deg_table">
