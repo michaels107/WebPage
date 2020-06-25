@@ -20,6 +20,7 @@
   <link href="stylesheets/icon.css" rel="stylesheet" />
   <link href="stylesheets/footer.css" rel="stylesheet" />
   <link href="stylesheets/font_scheme.css" rel="stylesheet"/>
+
   <!-- Import the proper css styling dependent on active page -->
   <% case current_page.data.title
      when "JWD - Home" %>
@@ -39,9 +40,10 @@
   <% when "JWD - Print" %>
   <link href="stylesheets/lists.css" rel="stylesheet" />
   <% when "JWD - Directions" %>
-  <link href="./stylesheets/directions.css" rel="stylesheet" />
+  <link href="stylesheets/directions.css" rel="stylesheet" />
   <% end %>
 </head>
+
 <body>
 <%=partial "navbar" %>
 <%= yield %>
