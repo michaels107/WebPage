@@ -3,10 +3,11 @@
  Edited on 6/25/2020 by Reema Gupta: added class for footer size and color
  CSS for the footer.
  */
-
+/* Give a grey border instead of black to match the bolding of words */
 hr {
     border-color: #666666;
 }
+/*Making the footer stand out less as it is a footer */
 footer{
     margin-top: auto;
     color: dimgray;

@@ -10,22 +10,26 @@
     font-weight: bold;
 }
 
-/* Square bullets and 6px padding for each element in the list. */
+/*Pushing from the left border a bit. */
 ul{
     padding-left: 17px;
 }
+/* Giving my list elements a square bullet and some spacing */
 li {
     list-style-type: square;
     padding: 6px;
 }
+/* taking out underline and chaning the color from, blue to grey */
 a:link{
     color: #666666;
     text-decoration: none;
 }
+/*When hovering over the link it will change to a scarlet */
 a:hover{
     color: #990000;
     font-weight: bold;
 }
+/*Bolding the titles of places */
 span{
     color: dimgray;
     font-weight: bold;
