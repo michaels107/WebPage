@@ -1,0 +1,26 @@
+/*Created 6/22/2020 by Duytan Tran
+  Illustrates active page to navbar*/
+.navbar a[href="publications.html"] {
+    font-weight: bold;
+}
+ol{
+    margin: 10px;
+}
+
+/*Created 6/22/2020 by Duytan Tran
+  Individual achievement styling*/
+.publication li {
+    list-style-type: square;
+    padding: 10px 10px 10px 10px;
+    margin-left: 20px;
+
+}
+
+/*Created 6/23/2020 by Duytan Tran
+  Red links*/
+a {
+    color: #990000;
+}
+li::first-line{
+    font-weight: bold ;
+}
