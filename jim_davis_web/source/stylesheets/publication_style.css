@@ -1,0 +1,31 @@
+/* Created on 6/25/20 by Reema Gupta
+css for publication
+ */
+
+/*Created 6/25/2020 by Reema Gupta
+  Illustrates active page to navbar*/
+.navbar a[href="publications.html"] {
+    font-weight: bold;
+}
+/*Created 6/25/2020 by Reema Gupta
+  margin for list*/
+ol{
+    margin: 20px;
+}
+/*Created 6/25/2020 by Reema Gupta
+  Individual list element */
+.publication li {
+    list-style-type: square;
+    padding: 10px 10px 10px 10px;
+    margin-left: 20px;
+}
+/*Created 6/25/2020 by Reema Gupta
+   links color*/
+a {
+    color: #990000;
+}
+/*Created 6/25/2020 by Reema Gupta
+   Bolds the first line of list*/
+li::first-line{
+    font-weight: bold ;
+}
