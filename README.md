@@ -4,13 +4,14 @@ A complete redesign to Jim Davis' Ohio State University webpage found at: http:/
 using HTML, CSS, and embedded Ruby code.
 
 ### Roles
-* Overall Project Manager:
+* Overall Project Manager:Sean Michaels
 * Coding Manager:
 * Testing Manager: Duytan Tran
 * Documentation:
 
 ### Contributions
 * Site-wide logo css (icon.css), Site-wide margins css (font_scheme.css), people page html w/ embedded ruby generation of lists (people.html.erb), people page css (people_style.css), noteworthy page html (noteworthy.html.erb), and noteworthy page css (noteworthy_style.css): Duytan Tran
+* Pages under the media tab creation (tv_video.html, radio.html, print.html), the respective CSS styling for those pages (lists.css), creation of the site wide footer (_footer.erb), the styling for the footer (footer.css) : Sean Michaels
 
 ### How to generate HTML pages
 1. Install the bundler gem if you haven't already: http://web.cse.ohio-state.edu/~shareef.1/3901.su20/labs/gems.html
