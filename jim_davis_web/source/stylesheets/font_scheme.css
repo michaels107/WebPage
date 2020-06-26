@@ -13,7 +13,7 @@
 .title > h1,h2{
     font-weight: normal;
     font-size: 25px;
-    font-family: Arial;
+    font-family: Arsenal;
     color: white;
     background-color: grey;
     padding: 5px 30px;
@@ -23,7 +23,7 @@
 /* Created on 6/24/20 by Reema Gupta */
 /*font family and size styling for all pages*/
 .font_scheme{
-    font-family: Arial;
+    font-family: Arsenal;
     font-size: 18px;
 }
 

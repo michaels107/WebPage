@@ -88,14 +88,16 @@ ul {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-/* Add a background color to navbar links when clicked */
+/*Edited on 6/24/20 by Reema Gupta
+Add a background color to navbar links when clicked */
 .navbar a:active {
     background-color: #746f0c;
     color: white;
     transform: translateY(10px);
 
 }
-/* Add a background color to dropdown links when clicked */
+/* Edited on 6/24/20 by Reema Gupta
+ Add a background color to dropdown links when clicked */
 .dropdown-content a:active{
     background-color: #4b740c;
     color: black;
